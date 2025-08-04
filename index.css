@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*
+
+
+
+
+
+*/
+:root{
+    --cor1:#72BB41;
+    --cor2:#66914A;
+    --cor3:#B5E6B2;
+    --cor4:#1D6619;
+    --cor5:#103D19;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor3));
+}
+header{
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor5) );
+    height: 250px;
+    width: 100%;
+    box-shadow: 9px -6px 6px 7px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+
+}
+nav{
+    text-align: center ;
+    padding:15px;
+}
+a{
+    margin-right:20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+header h1{
+    text-align: center ;
+    color: #fff;
+}
+header p{
+    text-align: center ;
+    margin: 30px;
+    max-width: 100%;
+    min-width: 320px;
+    color: #ffff;
+    display: block;
+    
+
+}
+.principal{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor1) );
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.secundario{
+    color:#fff;
+    width: 90%;
+    margin: auto;
+    background-image:linear-gradient(to bottom, var(--cor2), var(--cor1) );
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.video{
+    background-color:#000;
+    margin: 0px -15px;
+    position: relative;
+     padding-bottom: 40%; 
+     border-radius: 15px;
+
+}
+.video iframe{
+position: absolute;
+width: 98%;
+height: 98%;
+top: 1%;
+left: 1%;
+border-radius: 10px;
+
+   
+
+}
+.principal p{
+   
+    text-indent:1.5em ;
+    text-align: justify;
+    
+}
+.principal h1{
+    text-align: center;
+}
+.secundario p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
+footer {
+ background-image:linear-gradient(to bottom, var(--cor2), var(--cor5) );
+ margin-top: 50px;
+ padding: 20px;
+ text-align: center;
+ color: #fff;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+
+
+}
+a:hover{
+      background-color: #B5E6B2;
+      border-radius: 6px;
+      padding: 5px;
+      color: #103D19;
+      transition: 1s;
+}
