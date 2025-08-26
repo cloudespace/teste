@@ -22,7 +22,7 @@ body{
     background-image: linear-gradient(to bottom, var(--cor5));
 }
 header{
-    background-image:linear-gradient(to bottom, var(--cor2), var(--cor5) );
+    background-image:linear-gradient(to right, red, blue);
     height: 250px;
     width: 100%;
     box-shadow: 9px -6px 6px 7px;
